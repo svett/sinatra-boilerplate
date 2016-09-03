@@ -28,6 +28,8 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rack_csrf (2.5.0)
+      rack (>= 1.1.0)
     rake (11.2.2)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
@@ -67,6 +69,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  rack_csrf
   rake
   rspec
   sinatra (~> 1.4)
